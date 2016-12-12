@@ -9,7 +9,7 @@ Cet outil permet la génération de modèle de base de données pour les platefo
 
 ## Présentation du xcdatamodel
 
-Le fichier `xcdatamodel` est un fichier xml généré à partir de l'IDE XCode. Il est normalement utilisé pour modéliser les entités CodeData de manière graphique. 
+Le fichier `xcdatamodel` est un fichier xml généré à partir de l'IDE Xcode. Il est normalement utilisé pour modéliser les entités Code Data de manière graphique. 
 
 ![Simple Entity](documentation/simple_entity.png)
 
@@ -496,7 +496,7 @@ enum OptValue: String {
 
 #### Commenter les classes
 
-A des fins de clareté, il est possible de rajouter un commentaire sur une entité, pour permettre de fournir une petite description du rôle de cet entité par exemple.
+A des fins de clarté, il est possible de rajouter un commentaire sur une entité, pour permettre de fournir une petite description du rôle de cet entité par exemple.
 
 Pour cela, il suffit de rajouter la paire clé-valeur **`comment` : `texte_du_commentaire`** à votre **entité** du xcdatamodel.
 
@@ -537,7 +537,7 @@ public class Shop extends RealmObject {
 ```
 __iOS__
 
-Sur iOS nous utilisons la librairie Realm-JSON en génèrant les catégories MonEntité+JSON
+Sur iOS nous utilisons la librairie Realm-JSON en générant les catégories MonEntité+JSON
 
 
 RLMShop+JSON.m
